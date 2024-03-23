@@ -43,7 +43,7 @@ int main (int argc, char **argv){
         Matriz[i] = calloc(columns, sizeof(Celda));
     }
 
-    
+    rellenar_con_celdas(Matriz, rows, columns);    
 
     imprimir_matriz(Matriz, rows, columns);
 
